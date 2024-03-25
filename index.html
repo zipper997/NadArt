@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link to Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+    <!-- Your custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/whiteLogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times fa" onclick="hideMenu()"></i> <!-- Font Awesome close icon -->
+
+                <ul>
+                    <li><a href="">POČETNA</a></li>
+                    <li><a href="">O NAMA</a></li>
+                    <li><a href="">KONTAKT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars fa" onclick="showMenu()"></i> <!-- Font Awesome bars icon -->
+        </nav>
+
+        <div class="text-box">
+            <h1>RUČNI RADOVI OD PAPIRA</h1>
+            <p>Unikatni ručno izrađeni papirni artefakti: vaze, lampe i još mnogo toga. Oplemenite svoj dom jedinstvenim i elegantnim detaljima!</p>
+            <a href="" class="hero-btn">Klikni za listu proizvoda</a>
+        </div>
+    </section>
+
+<!---- Course ---->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dollor</p>
+
+    <div class="row">
+
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet impedit ipsam sunt voluptatem, exercitationem dolor repellat, explicabo veniam culpa recusandae temporibus reiciendis obcaecati repudiandae fuga eligendi, itaque harum! Excepturi, minima?</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet impedit ipsam sunt voluptatem, exercitationem dolor repellat, explicabo veniam culpa recusandae temporibus reiciendis obcaecati repudiandae fuga eligendi, itaque harum! Excepturi, minima?</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet impedit ipsam sunt voluptatem, exercitationem dolor repellat, explicabo veniam culpa recusandae temporibus reiciendis obcaecati repudiandae fuga eligendi, itaque harum! Excepturi, minima?</p>
+        </div>
+
+    </div>
+
+</section>
+<!----- campus ---->
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet impedit ipsam sunt voluptatem</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/london.png">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/newyork.png">
+            <div class="layer">
+                <h3>NEW YORK</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/washington.png">
+            <div class="layer">
+                <h3>WASHINGTON</h3>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<!------ Facilities ------>
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet conestioasjd aiosjds</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia omnis, voluptatum consequatur nihil temporibus excepturi consectetur</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia omnis, voluptatum consequatur nihil temporibus excepturi consectetur</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia omnis, voluptatum consequatur nihil temporibus excepturi consectetur</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-----------JavaScript for Toggle Menu-->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+
+</script>
+
+
+</body>
+</html>
